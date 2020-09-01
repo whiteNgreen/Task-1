@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <string>
 
 int age;
 
@@ -11,7 +12,7 @@ int main()
         std::cout << "You are a teenager";
     }
     else {
-        std::cout << "You are an adult";
+        std::cout << "You are an adult\n" + age;
     }
-}//asdasdasd
+}
 
